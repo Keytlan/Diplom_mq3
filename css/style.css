@@ -32,7 +32,7 @@
   
   @media (max-width: 640px) {
     .header {
-        background-image: url(../sources/img/banner-bg.jpg);
+        background-image: url(../sources/img/banner-mobile.jpg);
     }
   }
   
@@ -129,6 +129,7 @@
     height: 1px;
     clip: rect(1px, 1px, 1px, 1px);
     position: absolute;
+    padding: 2px;  
   }
   
   .radio:not(:checked) + .p-feedback-radio-group-text:before {
@@ -208,6 +209,7 @@
     border: none;
     background-image: url(../sources/svg/form-x.svg);
     background-repeat: no-repeat;
+    font-size: 1px;
   }
   .header {
     background-repeat: no-repeat;
@@ -273,11 +275,11 @@
     } 
   
     .header-menu { 
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        margin: 8px auto 0;
-        width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 8px auto 0;
+      width: 90%;
     }
   
     .header-title {
